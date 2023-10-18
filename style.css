@@ -14,12 +14,23 @@ html,body{
     min-height: 100vh;
     position: relative;
     width: 100%;
-    padding-top: 15.4vh;
+    padding-top: 18vh;
 }
 
-#page1 h1{
-    font-size: 15.4vw;
+#page1 h1{ 
+    font-size: 15.8vw;
     text-transform: uppercase;
     font-family: futura;
     line-height: 14vw;
+    letter-spacing: -8px;
+}
+#img{
+    height: 100%;
+    width: 100%;
+    background-color: gray;  
+    margin-top: 1vw;
+}
+#img img{
+    height: 100%;
+    width: 100%;
 }
