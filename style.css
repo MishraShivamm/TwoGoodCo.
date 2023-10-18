@@ -25,12 +25,22 @@ html,body{
     letter-spacing: -8px;
 }
 #img{
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-color: gray;  
+    background-color: white;  
     margin-top: 1vw;
+    position: relative;
 }
 #img img{
     height: 100%;
     width: 100%;
+}
+#img #button{
+    padding:4vw;
+    background-color: black;
+    color: #fff;
+    font-size: 3vw;
+    position: fixed;
+    font-family: futura;
+
 }
