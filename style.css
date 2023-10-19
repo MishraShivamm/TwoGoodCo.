@@ -4,16 +4,20 @@
     box-sizing: border-box;
     font-family: 'Gilroy';
   }
+
+
   *::selection{
     color: white;
     background-color: black;
   }
   
+
   html,body{
     height:  100%;
     width: 100%;
   }
   
+
   #page1{
     min-height: 100vh;
     position: relative;
@@ -21,6 +25,7 @@
     padding-top: 18vh;
   }
   
+
   #page1 h1{ 
     font-size: 15.8vw;
     text-transform: uppercase;
@@ -28,6 +33,7 @@
     line-height: 14vw;
     letter-spacing: -8px;
   }
+
   #img{
     height: 100vh;
     width: 100%;
@@ -35,10 +41,13 @@
     margin-top: 1vw;
     position: relative;
   }
+
   #img img{
     height: 100%;
     width: 100%;
   }
+
+
   #img #button{
     padding:3vw 2vw;
     background-color: black;
@@ -50,6 +59,7 @@
     opacity: 3;
     scale: 3;
   }
+
   #page2{
     height: 100%;
     width: 100%;
@@ -63,4 +73,9 @@
   #page2.elem{
     height: 100vh;
     width: 31%;
+  }
+  #page2.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
