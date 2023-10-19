@@ -1,3 +1,9 @@
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true
+});
+
+
 function animation() {
     const image=document.querySelector("#img")
   
