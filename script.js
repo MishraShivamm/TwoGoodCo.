@@ -1,7 +1,8 @@
 const scroll = new LocomotiveScroll({
-  el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector('#main'),
   smooth: true
 });
+// Above is locomotive js  which is used for animation
 
 
 function animation() {
